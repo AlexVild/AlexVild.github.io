@@ -48,6 +48,7 @@ font-size: 30px;
             {
                 var myNewItem = document.getElementById('myTextField').value;
                 var title = document.getElementById('list_item');
-                list_item.innerHTML = list_item.innerHTML + '<br>' + myNewItem;
+				var myNewItem_CAPS = myNewItem.toUpperCase();
+                list_item.innerHTML = list_item.innerHTML + '<br>' + myNewItem_CAPS;
             }
 </script>
