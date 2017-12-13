@@ -1,6 +1,6 @@
 .img-padding{
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .selfie{
@@ -9,4 +9,8 @@
     -webkit-box-shadow: 13px 10px 42px -6px rgba(0,0,0,0.52);
     -moz-box-shadow: 13px 10px 42px -6px rgba(0,0,0,0.52);
     box-shadow: 13px 10px 42px -6px rgba(0,0,0,0.52);
+}
+
+p {
+    line-height: 28px;
 }
